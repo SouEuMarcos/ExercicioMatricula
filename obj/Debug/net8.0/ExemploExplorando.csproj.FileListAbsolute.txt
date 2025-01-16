@@ -12,3 +12,4 @@ C:\Users\marco\OneDrive\Área de Trabalho\PROG\Curso DIO\Dotnet\ExemploExplorand
 C:\Users\marco\OneDrive\Área de Trabalho\PROG\Curso DIO\Dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.pdb
 C:\Users\marco\OneDrive\Área de Trabalho\PROG\Curso DIO\Dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.genruntimeconfig.cache
 C:\Users\marco\OneDrive\Área de Trabalho\PROG\Curso DIO\Dotnet\ExemploExplorando\obj\Debug\net8.0\ref\ExemploExplorando.dll
+C:\Users\marco\OneDrive\Área de Trabalho\PROG\Curso DIO\Dotnet\ExemploExplorando\obj\Debug\net8.0\ExemploExplorando.sourcelink.json
