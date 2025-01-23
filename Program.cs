@@ -1,5 +1,12 @@
 ﻿using ExemploExplorando.Models;
 
+string[]  linhas = File.ReadAllLines("Arquivos/arquivoLeitura.txt");
+
+foreach (string linha in linhas)
+{
+    Console.WriteLine(linha);
+}
+
 Pessoa p1 = new Pessoa(nome: "Marcos", sobrenome: "Vinícius");
 
 // p1.Nome = "Marcos";

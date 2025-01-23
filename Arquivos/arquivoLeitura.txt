@@ -1,0 +1,2 @@
+Linha 1 - Texto de leitura arquivo.txt.
+Linha 2 - Conteúdo de exceção.
