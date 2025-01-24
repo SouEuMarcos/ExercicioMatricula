@@ -31,6 +31,7 @@ Pessoa p2 = new Pessoa(nome: "Rauana", sobrenome: "Lage");
 // p2.Nome = "Rauana";
 // p2.Sobrenome = "Lage";
 
+Console.WriteLine("\n----------------------------------------------\n");
 
 Curso cursoDeIngles = new Curso();
 
@@ -41,6 +42,7 @@ cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.ListarAlunos();
 
+Console.WriteLine("\n----------------------------------------------\n");
 // Aplicando uma lista (QUEUE).
 
 Queue<int> fila = new Queue<int>();
@@ -51,7 +53,7 @@ fila.Enqueue(20);
 fila.Enqueue(34);
 fila.Enqueue(192);
 
-Console.WriteLine("Os elementos da Queue são:");
+Console.WriteLine("\nOs elementos da fila são:");
 
 foreach (int item in fila)
 {
@@ -60,9 +62,51 @@ foreach (int item in fila)
 
 Console.WriteLine($"\nRemovendo o elemento: {fila.Dequeue()}\n");
 
-Console.WriteLine("Os elementos da Queue são:");
+Console.WriteLine("Os elementos da fila são:");
 
 foreach (int item in fila)
 {
     Console.WriteLine(item);
+}
+
+// Aplicando uma pilha (STACK).
+Console.WriteLine("\n----------------------------------------------\n");
+
+Stack<int> pilha = new Stack<int>();
+
+pilha.Push(2);
+pilha.Push(4);
+pilha.Push(6);
+pilha.Push(8);
+pilha.Push(10);
+
+Console.WriteLine("\nOs elementos da pilha são:");
+
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"\nRemovendo o elemento: {pilha.Pop()}\n");
+
+Console.WriteLine("Os elementos da pilha são:");
+
+foreach (int item in pilha)
+{
+    Console.WriteLine(item);
+}
+
+// Aplicando um Dictonary.
+Console.WriteLine("\n----------------------------------------------\n");
+
+Dictionary<string, string> estados = new Dictionary<string, string>();
+
+estados.Add("PR", "Paraná");
+estados.Add("SP", "São Paulo");
+estados.Add("MG", "Minas Gerais");
+estados.Add("BA", "Bahia");
+
+foreach (var item in estados)
+{
+    Console.WriteLine($"Chave: {item.Key} \nValor: {item.Value}\n");
 }
