@@ -15,7 +15,7 @@ catch (Exception ex)
 }
 finally
 {
-    Console.WriteLine("Tudo certo!\n");
+    Console.WriteLine("Finalizado!\n");
 }
 
 Pessoa p1 = new Pessoa(nome: "Marcos", sobrenome: "Vinícius");
