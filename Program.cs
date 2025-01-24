@@ -16,7 +16,7 @@ catch (Exception ex)
 }
 finally
 {
-    Console.WriteLine("Finalizado!\n");
+    Console.WriteLine("Finalizado!");
 }
 
 Pessoa p1 = new Pessoa(nome: "Marcos", sobrenome: "Vinícius");
@@ -124,3 +124,7 @@ else
 {
     Console.WriteLine($"Valor não existente. É seguro adicionar a chave: {chave}");
 }
+
+// Obtendo o valor do dictonary.
+Console.WriteLine("");
+Console.WriteLine(estados["PR"]);
