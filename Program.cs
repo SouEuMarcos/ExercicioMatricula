@@ -132,9 +132,9 @@ Console.WriteLine(estados["PR"]);
 // Aplicando na prática a tupla.
 Console.WriteLine("\n----------------------------------------------\n");
 
-(int, string, string, decimal) tupla = (1, "Marcos", "Vinícius", 1.79M);
+(int Id, string Nome, string Sobrenome, decimal Altura) tupla = (1, "Marcos", "Vinícius", 1.79M);
 
-Console.WriteLine($"ID: {tupla.Item1}");
-Console.WriteLine($"Nome: {tupla.Item2}");
-Console.WriteLine($"Sobrenome: {tupla.Item3}");
-Console.WriteLine($"Altura: {tupla.Item4}");
+Console.WriteLine($"ID: {tupla.Id}");
+Console.WriteLine($"Nome: {tupla.Nome}");
+Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
+Console.WriteLine($"Altura: {tupla.Altura}");
