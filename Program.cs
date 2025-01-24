@@ -128,3 +128,13 @@ else
 // Obtendo o valor do dictonary.
 Console.WriteLine("");
 Console.WriteLine(estados["PR"]);
+
+// Aplicando na prática a tupla.
+Console.WriteLine("\n----------------------------------------------\n");
+
+(int, string, string, decimal) tupla = (1, "Marcos", "Vinícius", 1.79M);
+
+Console.WriteLine($"ID: {tupla.Item1}");
+Console.WriteLine($"Nome: {tupla.Item2}");
+Console.WriteLine($"Sobrenome: {tupla.Item3}");
+Console.WriteLine($"Altura: {tupla.Item4}");
