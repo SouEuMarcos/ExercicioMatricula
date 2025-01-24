@@ -1,4 +1,5 @@
-﻿using ExemploExplorando.Models;
+﻿using System.Collections;
+using ExemploExplorando.Models;
 
 try
 {
@@ -39,3 +40,29 @@ cursoDeIngles.Alunos = new List<Pessoa>();
 cursoDeIngles.AdicionarAluno(p1);
 cursoDeIngles.AdicionarAluno(p2);
 cursoDeIngles.ListarAlunos();
+
+// Aplicando uma lista (QUEUE).
+
+Queue<int> fila = new Queue<int>();
+
+fila.Enqueue(10);
+fila.Enqueue(8);
+fila.Enqueue(20);
+fila.Enqueue(34);
+fila.Enqueue(192);
+
+Console.WriteLine("Os elementos da Queue são:");
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
+
+Console.WriteLine($"\nRemovendo o elemento: {fila.Dequeue()}\n");
+
+Console.WriteLine("Os elementos da Queue são:");
+
+foreach (int item in fila)
+{
+    Console.WriteLine(item);
+}
