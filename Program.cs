@@ -138,3 +138,22 @@ Console.WriteLine($"ID: {tupla.Id}");
 Console.WriteLine($"Nome: {tupla.Nome}");
 Console.WriteLine($"Sobrenome: {tupla.Sobrenome}");
 Console.WriteLine($"Altura: {tupla.Altura}");
+
+// Testando métodos tupla através da classe.
+
+Console.WriteLine("");
+LeituraArquivo arquivo = new LeituraArquivo();
+
+var (sucesso, linhasArquivo, quantidadeLinhas) = arquivo.LerArquivo("Arquivos/arquivoLeitura.txt");
+
+if(sucesso)
+{
+    Console.WriteLine("Quantidade linhas do arquivo: " + quantidadeLinhas);
+    foreach (string linha in linhasArquivo)
+    {
+        Console.WriteLine(linha);
+    }
+}else
+{
+    Console.WriteLine("Não foi possível ler o arquivo.");
+}
